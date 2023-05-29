@@ -1,0 +1,14 @@
+[package]
+name = "smu"
+description = "The \"Set Me Up\" CLI tool"
+authors = ["mr-josh"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+surf = { version = "2.3.2" }
+async-std = { version = "1.12.0", features = ["attributes"] }
+clap = { version = "4.3.0", features = ["derive"] }
+git2 = "0.17.2"
+tar = "0.4.38"
+flate2 = "1.0.26"
